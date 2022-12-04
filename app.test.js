@@ -9,3 +9,13 @@ test ('suma 14 + 9 es igual a 23', () => {
 
     expect(result).toBe(23);
 });
+
+//PROGRAMA PARA CONVERTIR VALOR NUMÉRICO DE UNA MONEDA A OTRA.
+
+test ('One euro should be 1.206 dollars', function() {
+
+    const { fromEurotoDollar } = require ('./app.js')
+
+    expect(fromEurotoDollar(3.5)).toBe(4.2);
+
+})
