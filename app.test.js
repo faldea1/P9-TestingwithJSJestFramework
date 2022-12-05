@@ -20,6 +20,7 @@ test ('One euro should be 1.206 dollars', function() {
 
 })
 
+
 test ('One dollar should be 106.58333 yen', function() {
 
     const { fromDollartoYen } = require ('./app.js')
@@ -28,6 +29,7 @@ test ('One dollar should be 106.58333 yen', function() {
 
 })
 
+
 test ('One Yen should be 0.00625489 pounds', function() {
 
     const { fromYentoPound } = require ('./app.js')
@@ -35,3 +37,5 @@ test ('One Yen should be 0.00625489 pounds', function() {
     expect (fromYentoPound(511.6)).toBe(3.2);
 
 })
+
+//duda test con valores -> decimales.

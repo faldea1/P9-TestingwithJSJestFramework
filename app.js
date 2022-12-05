@@ -12,6 +12,7 @@ const sum = (a,b) => {
 //prueba registro consola
 
 console.log(sum(7,3));
+console.log(sum(40,10));
 
 //PROGRAMA PARA CONVERTIR VALOR NUMÉRICO DE UNA MONEDA A OTRA.
 
@@ -20,6 +21,7 @@ let OneEuroIs = {
     "USD": 1.2,
     "GBP": 0.8,
 }
+
 
 const fromEurotoDollar = function(valueinEuro) {
 
